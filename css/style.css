@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato:wght@700&family=Roboto&family=Work+Sans:wght@600&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: #ffff;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    padding: 7px 20px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: #2CA68F;
+    color: white;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.texto-home {
+    width: 50%;
+    padding: 20px;
+}
+
+.imagen-home img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h1 span {
+    color: #2CA68F;
+}
+
+p {
+    line-height: 2;
+    text-align: justify;
+}
+
+.boton {
+    display: inline-flex;
+    background-color: #2CA68F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    align-items: center;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    position: relative;
+}
+
+.boton .material-symbols-outlined {
+    margin-left: 10px;
+}
